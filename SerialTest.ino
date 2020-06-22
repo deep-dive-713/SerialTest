@@ -26,7 +26,7 @@ void loop()
 		else if(getstr == 'k') {
             g_display_mode = MODE_HELLO_KM;
         }
-    else {
+    else if(getstr != 'r') {
             g_display_mode = MODE_HELLO_RIKITO;
         }
     }
